@@ -250,14 +250,27 @@ button:hover {
     }
 
     .content {
-        width: 90%;
+        width: 100%;
         height: auto;
     }
 
     .project-content {
-        width: 100%;
+        position: relative;
+        width: 90%;
         max-width: 400px;
-        padding: 20px;
+        padding: 15px;
+        font-size: 14px;
+        transform: none;
+        top: auto;
+        left: auto;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    .description {
+        font-size: 14px;
     }
 
     .toc {
