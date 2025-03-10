@@ -233,10 +233,6 @@ button:hover {
     right: 140px;
 }
 @media screen and (max-width: 768px) {
-    .image-frame {
-        width: 95%;
-        height: 250px;
-    }
     body {
         display: flex;
         flex-direction: column;
@@ -249,18 +245,22 @@ button:hover {
 
     .container {
         flex-direction: column;
-        align-items: center;
-        text-align: center;
+        align-items: flex-start; /* Zmiana na flex-start, aby kontener był bardziej po lewej */
+        text-align: left; /* Tekst wyrównany do lewej */
+        width: 100%; /* Pełna szerokość */
+        max-width: none; /* Usunięcie maksymalnej szerokości */
     }
 
     .content {
-        width: 100%;
+        width: 90%; /* Zwiększenie szerokości kontenera */
         height: auto;
+        margin-left: 10%; /* Przesunięcie kontenera bardziej w prawo */
     }
-    .project{
-        display: none; 
-        width: 100%;
-        height: 200%;
+
+    .project {
+        display: none;
+        width: 200%;
+        height: auto;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
@@ -273,8 +273,9 @@ button:hover {
         padding: 15px;
         font-size: 14px;
         transform: none;
-        top: auto;
-        left: 20%;
+        top: 0;
+        left: 0;
+        margin-left: 10%; /* Przesunięcie zawartości bardziej w prawo */
     }
 
     h2 {
@@ -292,7 +293,7 @@ button:hover {
         transform: none;
         margin-bottom: 20px;
         width: 90%;
-        text-align: center;
+        text-align: left; /* Tekst wyrównany do lewej */
     }
 
     button {
@@ -304,7 +305,28 @@ button:hover {
 
     .links {
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start; /* Przyciski wyrównane do lewej */
+    }
+
+    /* Dostosowanie pozycji chmur */
+    .cloud-1 {
+        left: 60%;
+    }
+
+    .cloud-2 {
+        right: 70%;
+    }
+
+    .cloud-3 {
+        left: 5%;
+    }
+
+    .cloud-4 {
+        right: 5%;
+    }
+
+    .cloud-5 {
+        left: 40%;
     }
 }
 
