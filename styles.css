@@ -260,7 +260,7 @@ button:hover {
     .project{
         display: none; 
         width: 100%;
-        height: 100%;
+        height: 200%;
         position: relative;
         border-radius: 10px;
         overflow: hidden;
@@ -268,13 +268,13 @@ button:hover {
 
     .project-content {
         position: relative;
-        width: 50%;
+        width: 90%;
         max-width: 400px;
         padding: 15px;
         font-size: 14px;
         transform: none;
         top: auto;
-        left: auto;
+        left: 20%;
     }
 
     h2 {
