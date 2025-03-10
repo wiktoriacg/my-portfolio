@@ -245,17 +245,16 @@ button:hover {
 
     .container {
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-        width: 100%;
-        max-width: 200%;
-        margin-bottom: 50px; /* Dodano margines dolny */
+        align-items: flex-start; /* Zmiana na flex-start, aby kontener był bardziej po lewej */
+        text-align: left; /* Tekst wyrównany do lewej */
+        width: 100%; /* Pełna szerokość */
+        max-width: 200%; /* Usunięcie maksymalnej szerokości */
     }
 
     .content {
-        width: 90%;
+        width: 90%; /* Zwiększenie szerokości kontenera */
         height: auto;
-        margin-left: 10%;
+        margin-left: 10%; /* Przesunięcie kontenera bardziej w prawo */
     }
 
     .project {
@@ -276,9 +275,9 @@ button:hover {
         transform: none;
         top: 0;
         left: 0;
-        margin-left: 6%;
+        margin-left: 6%; /* Przesunięcie zawartości bardziej w prawo */
         margin-top: 6%;
-        margin-bottom: 20%; /* Zwiększono margines dolny */
+        margin-bottom: 6%;
         margin-right: 6%;
     }
 
@@ -297,20 +296,22 @@ button:hover {
         transform: none;
         margin-bottom: 30px;
         width: 90%;
-        text-align: left;
+        text-align: left; /* Tekst wyrównany do lewej */
     }
 
     button {
         display: inline-block;
-        margin-top: 40px; /* Zwiększono margines górny */
+        margin-bottom: 20px;
         width: 80%;
         max-width: 300px;
         margin-right: 10%;
     }
-
+    .spacer {
+        height: 50px; /* Wysokość spacji */
+    }
     .links {
         flex-direction: column;
-        align-items: flex-start;
+        align-items: flex-start; /* Przyciski wyrównane do lewej */
     }
 
     /* Dostosowanie pozycji chmur */
@@ -326,12 +327,12 @@ button:hover {
 
     .cloud-3 {
         left: 20%;
-        top: 130%;
+        top: 130% 
     }
 
     .cloud-4 {
         right: 50%;
-        top: 75%;
+        top: 75%
     }
 
     .cloud-5 {
