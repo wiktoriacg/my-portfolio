@@ -280,7 +280,7 @@ button:hover {
         max-width: 500px;
         height: auto;
         padding: 20px;
-        margin: 0 auto; /* Wyśrodkowanie kontenera z projektami */
+        margin: 0; /* Kontener tuż pod spisem treści */
     }
 
     .project-content {
@@ -319,33 +319,33 @@ button:hover {
     }
 
     .cloud {
-        width: 100px;
+        width: 150px; /* Większe chmurki */
         opacity: 0.8;
         animation: float 20s infinite ease-in-out;
     }
 
     .cloud-1 {
-        top: 5%;
+        top: 10%; /* Niżej */
         left: 5%;
     }
 
     .cloud-2 {
-        top: 20%;
+        top: 30%; /* Niżej */
         right: 5%;
     }
 
     .cloud-3 {
-        top: 40%;
+        top: 50%; /* Niżej */
         left: 10%;
     }
 
     .cloud-4 {
-        top: 60%;
+        top: 70%; /* Niżej */
         right: 5%;
     }
 
     .cloud-5 {
-        top: 80%;
+        top: 90%; /* Niżej */
         left: 50%;
     }
 
