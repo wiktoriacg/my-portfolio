@@ -248,7 +248,7 @@ button:hover {
         align-items: flex-start; /* Zmiana na flex-start, aby kontener był bardziej po lewej */
         text-align: left; /* Tekst wyrównany do lewej */
         width: 100%; /* Pełna szerokość */
-        max-width: none; /* Usunięcie maksymalnej szerokości */
+        max-width: 200%; /* Usunięcie maksymalnej szerokości */
     }
 
     .content {
@@ -259,7 +259,7 @@ button:hover {
 
     .project {
         display: none;
-        width: 200%;
+        width: 170%;
         height: auto;
         position: relative;
         border-radius: 10px;
@@ -275,7 +275,8 @@ button:hover {
         transform: none;
         top: 0;
         left: 0;
-        margin-left: 10%; /* Przesunięcie zawartości bardziej w prawo */
+        margin-left: 6%; /* Przesunięcie zawartości bardziej w prawo */
+        margin-top: 7%;
     }
 
     h2 {
@@ -297,10 +298,11 @@ button:hover {
     }
 
     button {
-        position: static;
-        margin-top: 20px;
+        display: inline-block;
+        margin-top: 30px;
         width: 80%;
         max-width: 300px;
+        margin-right: 10;
     }
 
     .links {
