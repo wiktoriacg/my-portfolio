@@ -236,24 +236,19 @@ button:hover {
     body {
         height: auto;
         padding: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .container {
-        display: flex;
         flex-direction: column;
-        align-items: flex-start; /* Spis treści z lewej */
+        align-items: center;
         gap: 20px;
-        width: 100%;
-        max-width: 1200px;
     }
 
     .toc {
         position: static;
         transform: none;
-        width: 150px; /* Węższy spis treści */
+        width: 100%;
+        max-width: 500px;
         margin-bottom: 20px;
         backdrop-filter: none;
         background-color: rgba(255, 255, 255, 0.9);
@@ -263,16 +258,7 @@ button:hover {
     }
 
     .toc ul {
-        text-align: left; /* Tekst wyrównany do lewej */
-        padding: 0;
-    }
-
-    .toc li {
-        margin: 10px 0;
-    }
-
-    .toc a {
-        font-size: 14px;
+        text-align: center;
     }
 
     .content {
@@ -280,10 +266,6 @@ button:hover {
         max-width: 500px;
         height: auto;
         padding: 20px;
-        margin: 0 auto; /* Wyśrodkowanie kontenera z projektami */
-        background-color: rgba(255, 255, 255, 0.9); /* Tło kontenera */
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .project-content {
@@ -309,7 +291,7 @@ button:hover {
         justify-content: center;
         gap: 10px;
         margin-top: 20px;
-        width: 100%; /* Pełna szerokość dla przycisków */
+        width: 100%;
     }
 
     button {
@@ -319,45 +301,33 @@ button:hover {
     }
 
     .cloud {
-        width: 150px; /* Większe chmurki */
+        width: 150px;
         opacity: 0.8;
         animation: float 20s infinite ease-in-out;
     }
 
     .cloud-1 {
-        top: 10%; /* Niżej */
+        top: 10%;
         left: 5%;
     }
 
     .cloud-2 {
-        top: 30%; /* Niżej */
+        top: 30%;
         right: 5%;
     }
 
     .cloud-3 {
-        top: 50%; /* Niżej */
+        top: 50%;
         left: 10%;
     }
 
     .cloud-4 {
-        top: 70%; /* Niżej */
+        top: 70%;
         right: 5%;
     }
 
     .cloud-5 {
-        top: 90%; /* Niżej */
+        top: 90%;
         left: 50%;
-    }
-
-    @keyframes float {
-        0% {
-            transform: translateX(-20px);
-        }
-        50% {
-            transform: translateX(20px);
-        }
-        100% {
-            transform: translateX(-20px);
-        }
     }
 }
