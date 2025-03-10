@@ -245,16 +245,17 @@ button:hover {
 
     .container {
         flex-direction: column;
-        align-items: flex-start; /* Zmiana na flex-start, aby kontener był bardziej po lewej */
-        text-align: left; /* Tekst wyrównany do lewej */
-        width: 100%; /* Pełna szerokość */
-        max-width: 200%; /* Usunięcie maksymalnej szerokości */
+        align-items: flex-start;
+        text-align: left;
+        width: 100%;
+        max-width: 200%;
+        margin-bottom: 50px; /* Dodano margines dolny */
     }
 
     .content {
-        width: 90%; /* Zwiększenie szerokości kontenera */
+        width: 90%;
         height: auto;
-        margin-left: 10%; /* Przesunięcie kontenera bardziej w prawo */
+        margin-left: 10%;
     }
 
     .project {
@@ -275,9 +276,9 @@ button:hover {
         transform: none;
         top: 0;
         left: 0;
-        margin-left: 6%; /* Przesunięcie zawartości bardziej w prawo */
+        margin-left: 6%;
         margin-top: 6%;
-        margin-bottom: 6%;
+        margin-bottom: 20%; /* Zwiększono margines dolny */
         margin-right: 6%;
     }
 
@@ -296,12 +297,12 @@ button:hover {
         transform: none;
         margin-bottom: 30px;
         width: 90%;
-        text-align: left; /* Tekst wyrównany do lewej */
+        text-align: left;
     }
 
     button {
         display: inline-block;
-        margin-bottom: 20px;
+        margin-top: 40px; /* Zwiększono margines górny */
         width: 80%;
         max-width: 300px;
         margin-right: 10%;
@@ -309,7 +310,7 @@ button:hover {
 
     .links {
         flex-direction: column;
-        align-items: flex-start; /* Przyciski wyrównane do lewej */
+        align-items: flex-start;
     }
 
     /* Dostosowanie pozycji chmur */
@@ -325,19 +326,18 @@ button:hover {
 
     .cloud-3 {
         left: 20%;
-        top: 130% 
+        top: 130%;
     }
 
     .cloud-4 {
         right: 50%;
-        top: 75%
+        top: 75%;
     }
 
     .cloud-5 {
         left: 40%;
     }
 }
-
 @media screen and (max-width: 480px) {
     h2 {
         font-size: 24px;
