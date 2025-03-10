@@ -280,15 +280,15 @@ button:hover {
         max-width: 500px;
         height: auto;
         padding: 20px;
-        margin: 0; /* Kontener tuż pod spisem treści */
+        margin: 0 auto; /* Wyśrodkowanie kontenera z projektami */
+        background-color: rgba(255, 255, 255, 0.9); /* Tło kontenera */
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     .project-content {
         width: 100%;
         padding: 20px;
-        background-color: rgba(255, 255, 255, 0.9);
-        border-radius: 10px;
-        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     }
 
     h2 {
