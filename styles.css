@@ -236,19 +236,24 @@ button:hover {
     body {
         height: auto;
         padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .container {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-start; /* Spis treści z lewej */
         gap: 20px;
+        width: 100%;
+        max-width: 1200px;
     }
 
     .toc {
         position: static;
         transform: none;
-        width: 100%;
-        max-width: 500px;
+        width: 150px; /* Węższy spis treści */
         margin-bottom: 20px;
         backdrop-filter: none;
         background-color: rgba(255, 255, 255, 0.9);
@@ -258,7 +263,7 @@ button:hover {
     }
 
     .toc ul {
-        text-align: center;
+        text-align: left; /* Tekst wyrównany do lewej */
         padding: 0;
     }
 
@@ -275,6 +280,7 @@ button:hover {
         max-width: 500px;
         height: auto;
         padding: 20px;
+        margin: 0 auto; /* Wyśrodkowanie kontenera z projektami */
     }
 
     .project-content {
@@ -303,6 +309,7 @@ button:hover {
         justify-content: center;
         gap: 10px;
         margin-top: 20px;
+        width: 100%; /* Pełna szerokość dla przycisków */
     }
 
     button {
