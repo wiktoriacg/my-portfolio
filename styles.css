@@ -276,7 +276,9 @@ button:hover {
         top: 0;
         left: 0;
         margin-left: 6%; /* Przesunięcie zawartości bardziej w prawo */
-        margin-top: 7%;
+        margin-top: 6%;
+        margin-bottom: 6%;
+        margin-right: 6%;
     }
 
     h2 {
@@ -292,7 +294,7 @@ button:hover {
         left: auto;
         top: auto;
         transform: none;
-        margin-bottom: 20px;
+        margin-bottom: 30px;
         width: 90%;
         text-align: left; /* Tekst wyrównany do lewej */
     }
@@ -313,6 +315,7 @@ button:hover {
     /* Dostosowanie pozycji chmur */
     .cloud-1 {
         left: 60%;
+        top: 90%;
     }
 
     .cloud-2 {
