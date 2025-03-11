@@ -301,13 +301,12 @@ button:hover {
 
     button {
         display: inline-block;
-        margin-bottom: 20px;
         width: 80%;
         max-width: 300px;
-        margin-right: 10%;
+        margin-right: 20%;
     }
     .spacer {
-        height: 50px; /* Wysokość spacji */
+        height: 250px; /* Wysokość spacji */
     }
     .links {
         flex-direction: column;
