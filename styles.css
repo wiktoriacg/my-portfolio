@@ -299,13 +299,35 @@ button:hover {
         text-align: left; /* Tekst wyrównany do lewej */
     }
 
+    .buttons {
+        display: flex; /* Użycie Flexbox */
+        flex-direction: row; /* Przyciski obok siebie */
+        justify-content: center; /* Wyśrodkowanie w poziomie */
+        align-items: center; /* Wyśrodkowanie w pionie */
+        gap: 10px; /* Odstęp między przyciskami */
+        margin-bottom: 20px; /* Margines dolny */
+    }
+
     button {
         display: inline-block;
-        width: 80%;
+        width: 150px; /* Stała szerokość przycisków */
         max-width: 300px;
-        margin-right: -20%;
-        margin-bottom: 250px;
+        margin: 0; /* Usunięcie marginesów */
+        padding: 10px; /* Wewnętrzny odstęp */
+        font-size: 16px; /* Rozmiar tekstu */
+        cursor: pointer; /* Kursor wskazujący */
+        background-color: white; /* Kolor tła */
+        color: black; /* Kolor tekstu */
+        border: none; /* Brak obramowania */
+        border-radius: 5px; /* Zaokrąglone rogi */
+        transition: background-color 0.3s, color 0.3s; /* Animacja */
     }
+
+    button:hover {
+        background-color: #45bbe2; /* Kolor tła po najechaniu */
+        color: white; /* Kolor tekstu po najechaniu */
+    }
+
     .spacer {
         height: 700px; /* Wysokość spacji */
     }
