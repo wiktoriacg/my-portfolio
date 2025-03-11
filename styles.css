@@ -329,7 +329,7 @@ button:hover {
     }
     
     #prevBtn {
-        margin-right: 50%; /* Tekst "Poprzednia" wyrównany do lewej */
+        margin-right: 10%; /* Tekst "Poprzednia" wyrównany do lewej */
     }
     
     #nextBtn {
