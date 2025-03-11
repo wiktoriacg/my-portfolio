@@ -303,8 +303,8 @@ button:hover {
         display: inline-block;
         width: 80%;
         max-width: 300px;
-        margin-right: 0%;
-        margin-bottom: 170px;
+        margin-left: 30%;
+        margin-bottom: 250px;
     }
     .spacer {
         height: 250px; /* Wysokość spacji */
