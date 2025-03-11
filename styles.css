@@ -325,15 +325,15 @@ button:hover {
     button:hover {
         background-color: #45bbe2; /* Kolor tła po najechaniu */
         color: white; /* Kolor tekstu po najechaniu */
-        border-color: #45bbe2; /* Kolor obramowania po najechaniu */
+        border-color: #172930; /* Kolor obramowania po najechaniu */
     }
     
     #prevBtn {
-        margin-left: 30%; /* Tekst "Poprzednia" wyrównany do lewej */
+        margin-right: 50%; /* Tekst "Poprzednia" wyrównany do lewej */
     }
     
     #nextBtn {
-        margin-right: 30%; /* Tekst "Następna" wyrównany do prawej */
+        margin-left: 50%; /* Tekst "Następna" wyrównany do prawej */
     }
 
     .spacer {
