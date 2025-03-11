@@ -303,7 +303,7 @@ button:hover {
         flex-direction: row; /* Przyciski obok siebie */
         justify-content: space-between; /* "Poprzednia" z lewej, "Następna" z prawej */
         align-items: center; /* Wyśrodkowanie w pionie */
-        gap: 20px; /* Przerwa między przyciskami */
+        gap: 120px; /* Przerwa między przyciskami */
         width: 100%; /* Szerokość kontenera */
         max-width: 400px; /* Maksymalna szerokość (możesz dostosować) */
         margin: 0 auto; /* Wyśrodkowanie kontenera */
@@ -317,7 +317,7 @@ button:hover {
         cursor: pointer; /* Kursor wskazujący */
         background-color: white; /* Kolor tła */
         color: black; /* Kolor tekstu */
-        border: 2px solid #45bbe2; /* Obramowanie */
+        border: 2px solid #d2edf6; /* Obramowanie */
         border-radius: 5px; /* Zaokrąglone rogi */
         transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Animacja */
     }
