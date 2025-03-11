@@ -300,34 +300,40 @@ button:hover {
     }
     .buttons {
         display: flex; /* Użycie Flexbox */
-        flex-direction: row; /* Przyciski obok siebie w normalnej kolejności */
-        justify-content: center; /* Wyśrodkowanie w poziomie */
+        flex-direction: row; /* Przyciski obok siebie */
+        justify-content: space-between; /* "Poprzednia" z lewej, "Następna" z prawej */
         align-items: center; /* Wyśrodkowanie w pionie */
-        gap: 50px; /* Zwiększony odstęp między przyciskami */
-        margin-bottom: 20px; /* Margines dolny */
-    }
-    #nextBtn {
-        order: -1; /* To spowoduje, że "Następna" będzie pierwsza */
-    }
-
-    button {
-        display: inline-block;
-        width: 150px; /* Stała szerokość przycisków */
-        max-width: 300px;
-        margin: 0; /* Usunięcie marginesów */
+        gap: 20px; /* Przerwa między przyciskami */
+        width: 100%; /* Szerokość kontenera */
+        max-width: 400px; /* Maksymalna szerokość (możesz dostosować) */
+        margin: 0 auto; /* Wyśrodkowanie kontenera */
         padding: 10px; /* Wewnętrzny odstęp */
+    }
+    
+    button {
+        flex: 1; /* Przyciski zajmują równą przestrzeń */
+        padding: 10px 20px; /* Wewnętrzny odstęp */
         font-size: 16px; /* Rozmiar tekstu */
         cursor: pointer; /* Kursor wskazujący */
         background-color: white; /* Kolor tła */
         color: black; /* Kolor tekstu */
-        border: none; /* Brak obramowania */
+        border: 2px solid #45bbe2; /* Obramowanie */
         border-radius: 5px; /* Zaokrąglone rogi */
-        transition: background-color 0.3s, color 0.3s; /* Animacja */
+        transition: background-color 0.3s, color 0.3s, border-color 0.3s; /* Animacja */
     }
-
+    
     button:hover {
         background-color: #45bbe2; /* Kolor tła po najechaniu */
         color: white; /* Kolor tekstu po najechaniu */
+        border-color: #45bbe2; /* Kolor obramowania po najechaniu */
+    }
+    
+    #prevBtn {
+        text-align: left; /* Tekst "Poprzednia" wyrównany do lewej */
+    }
+    
+    #nextBtn {
+        text-align: right; /* Tekst "Następna" wyrównany do prawej */
     }
 
     .spacer {
