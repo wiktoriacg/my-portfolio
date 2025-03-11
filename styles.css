@@ -303,11 +303,11 @@ button:hover {
         display: inline-block;
         width: 80%;
         max-width: 300px;
-        margin-left: 30%;
+        margin-left: 20%;
         margin-bottom: 250px;
     }
     .spacer {
-        height: 250px; /* Wysokość spacji */
+        height: 350px; /* Wysokość spacji */
     }
     .links {
         flex-direction: column;
