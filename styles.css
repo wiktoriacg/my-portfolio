@@ -303,8 +303,11 @@ button:hover {
         flex-direction: row; /* Przyciski obok siebie w normalnej kolejności */
         justify-content: center; /* Wyśrodkowanie w poziomie */
         align-items: center; /* Wyśrodkowanie w pionie */
-        gap: 30px; /* Zwiększony odstęp między przyciskami */
+        gap: 50px; /* Zwiększony odstęp między przyciskami */
         margin-bottom: 20px; /* Margines dolny */
+    }
+    #nextBtn {
+        order: -1; /* To spowoduje, że "Następna" będzie pierwsza */
     }
 
     button {
