@@ -298,13 +298,12 @@ button:hover {
         width: 90%;
         text-align: left; /* Tekst wyrównany do lewej */
     }
-
     .buttons {
         display: flex; /* Użycie Flexbox */
-        flex-direction: row-reverse; /* Przyciski obok siebie */
+        flex-direction: row; /* Przyciski obok siebie w normalnej kolejności */
         justify-content: center; /* Wyśrodkowanie w poziomie */
         align-items: center; /* Wyśrodkowanie w pionie */
-        gap: 30px; /* Odstęp między przyciskami */
+        gap: 30px; /* Zwiększony odstęp między przyciskami */
         margin-bottom: 20px; /* Margines dolny */
     }
 
