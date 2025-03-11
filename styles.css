@@ -303,15 +303,17 @@ button:hover {
         display: inline-block;
         width: 80%;
         max-width: 300px;
-        margin-right: 5%;
-        margin-bottom: 100px;
+        margin-right: 0%;
+        margin-bottom: 170px;
     }
     .spacer {
         height: 250px; /* Wysokość spacji */
     }
     .links {
         flex-direction: column;
-        align-items: flex-start; /* Przyciski wyrównane do lewej */
+        /*align-items: flex-start;  Przyciski wyrównane do lewej */
+        justify-content: center; /* Wyśrodkowanie w poziomie */
+        align-items: center;
     }
 
     /* Dostosowanie pozycji chmur */
