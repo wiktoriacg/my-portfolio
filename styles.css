@@ -329,11 +329,11 @@ button:hover {
     }
     
     #prevBtn {
-        margin-right: 10%; /* Tekst "Poprzednia" wyrównany do lewej */
+        margin-left: -60%; /* Tekst "Poprzednia" wyrównany do lewej */
     }
     
     #nextBtn {
-        margin-left: 50%; /* Tekst "Następna" wyrównany do prawej */
+        margin-right: -70%; /* Tekst "Następna" wyrównany do prawej */
     }
 
     .spacer {
