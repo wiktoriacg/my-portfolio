@@ -301,10 +301,10 @@ button:hover {
 
     .buttons {
         display: flex; /* Użycie Flexbox */
-        flex-direction: row; /* Przyciski obok siebie */
+        flex-direction: row-reverse; /* Przyciski obok siebie */
         justify-content: center; /* Wyśrodkowanie w poziomie */
         align-items: center; /* Wyśrodkowanie w pionie */
-        gap: 10px; /* Odstęp między przyciskami */
+        gap: 30px; /* Odstęp między przyciskami */
         margin-bottom: 20px; /* Margines dolny */
     }
 
